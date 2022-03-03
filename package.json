@@ -1,0 +1,24 @@
+{
+  "name": "session-scedular",
+  "version": "1.0.0",
+  "description": "It helps coaches to keep track of session in online/offline mode",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon ./app.js"
+  },
+  "author": "Joy deb",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.2",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.3",
+    "nodemon": "^2.0.12"
+  }
+}
