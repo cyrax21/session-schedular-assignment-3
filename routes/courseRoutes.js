@@ -6,7 +6,7 @@ const router = express.Router();
 router.post('/course', addCourse);
 
 // update the course
-router.patch('/course/:id', updateCourse);
+router.put('/course/:id', updateCourse);
 
 // Get all the course
 router.get('/course', getAllCourse);

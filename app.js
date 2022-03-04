@@ -26,9 +26,11 @@ app.use(cors());
 
 // import routes
 const courseRoutes = require('./routes/courseRoutes');
+const sessionRoutes = require('./routes/sessionRoutes');
 
 // using routes
 app.use('/api', courseRoutes);
+app.use('/api', sessionRoutes);
 
 
 

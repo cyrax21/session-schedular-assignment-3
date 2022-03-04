@@ -4,8 +4,8 @@ const Course = require('../models/course');
 exports.addCourse = async(req, res) => {
     const data = await Course.create(req.body);
 
-    return res.status(200).json({
-        sucess: true,
+    return res.status(200).json({ 
+        success: true,
         message : "succesfully course added",
         data
     })
