@@ -7,7 +7,7 @@ const bodyParser = require('body-parser');
 require("dotenv").config();
 
 mongoose
-	.connect("mongodb://localhost:27017/shopkart-app", {
+	.connect("mongodb://localhost:27017/session-schedule", {
 		useNewUrlParser: true,
 		useUnifiedTopology: true,
         useFindAndModify: false,
@@ -29,8 +29,8 @@ const courseRoutes = require('./routes/courseRoutes');
 const sessionRoutes = require('./routes/sessionRoutes');
 
 // using routes
-app.use('/api', courseRoutes);
-app.use('/api', sessionRoutes);
+app.use('/class', courseRoutes);
+app.use('/meet', sessionRoutes);
 
 
 

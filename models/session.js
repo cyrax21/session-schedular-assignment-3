@@ -6,27 +6,26 @@ const sessionSchema = new mongoose.Schema(
 			type: "String",
 			trim: true,
 			required: true,
-			unique: true,
 		},
-		coach: {
+		course: {
 			type: "String",
 			trim: true,
 			required: true,
-			unique: true,
 		},
 		agenda: {
 			type: "String",
 			trim: true,
 			required: true,
-			unique: true,
 		},
 		startTime: {
-			type: "Date",
+			type: "String",
 			required: true,
+			trim: true,
 		},
 		endTime: {
-			type: "Date",
+			type: "String",
 			required: true,
+			trim: true,
 		},
 	},
 	{ timestamps: true }

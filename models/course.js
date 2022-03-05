@@ -6,13 +6,11 @@ const courseSchema = new mongoose.Schema(
 			type: "String",
 			trim: true,
 			required: true,
-			unique: true,
 		},
 		coach: {
 			type: "String",
 			trim: true,
 			required: true,
-			unique: true,
 		},
 		desc: {
 			type: "String",
