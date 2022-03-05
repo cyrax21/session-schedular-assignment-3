@@ -62,7 +62,7 @@ Notes:
 ![Add a Course](https://github.com/cyrax21/session-schedular-assignment-3/blob/main/Postman%20screenshots/add%20course%20.png)
 Diagram 1 : Add a Course 
 
-![Update the Course](https://github.com/cyrax21/Avtaar-Assignment-2/blob/main/sign%20in.png)
+![Update the Course](https://github.com/cyrax21/session-schedular-assignment-3/blob/main/Postman%20screenshots/Screenshot%202022-03-05%20155330.png)
 Diagram 2 : Update the Course 
 
 ![Get All the Course](https://github.com/cyrax21/session-schedular-assignment-3/blob/main/Postman%20screenshots/get%20all%20course%20.png)
@@ -83,7 +83,7 @@ Diagram 6 : Trying to Add session when their is collision with another session
 ![Update Session](https://github.com/cyrax21/Avtaar-Assignment-2/blob/main/sign%20in.png)
 Diagram 7 : Update Session using Id
 
-![Update Session](https://github.com/cyrax21/Avtaar-Assignment-2/blob/main/sign%20in.png)
+![Update Session](https://github.com/cyrax21/session-schedular-assignment-3/blob/main/Postman%20screenshots/update%20session%20collide.png)
 Diagram 8 : Trying to update a existing session that is colliding with another session
 
 ![get course1](https://github.com/cyrax21/session-schedular-assignment-3/blob/main/Postman%20screenshots/get%20session%20for%20each%20course%20-%202%20paginated%20page%201.png)
