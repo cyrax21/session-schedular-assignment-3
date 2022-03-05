@@ -1,10 +1,10 @@
 # session-schedular-assignment-3
 
-##[Points]
+#[Points]
 1. i need to built a middleware indicating to differentiate between a student and teacher(Admin)
 
 
-##[APIs [ Input and about ]]
+#[APIs [ Input and about ]]
 - addCourse/updateCourse - POST method
 input - course name, coach name, description
  
@@ -24,7 +24,7 @@ input - course name, coach name, description
  input - session name/id
  
  
-##[Models/Tables]
+#[Models/Tables]
 1) course 
 course_id, coach_id, course name, coach name, description, 
  
@@ -34,7 +34,7 @@ coach_id, coach_name, about, mail, password
 3) session
 session_id, coach , title, agenda. link, start_time, end_time
  
-##[TestCase]
+#[TestCase]
 - addCourse/ updateCourse
 1. course name unique - search in db - same name - error [same course exist]
 
