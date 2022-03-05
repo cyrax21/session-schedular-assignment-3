@@ -57,3 +57,39 @@ session_id, coach , title, agenda. link, start_time, end_time
 Notes:
 1. [paginated API: means divide the result of a query into multiple parts just like Flipkart here 20 products is listed at a time then we can use next page to see next 20 products ]
 2. two-session should not collide
+
+*Postman screenshot*
+![Add a Course](https://github.com/cyrax21/session-schedular-assignment-3/blob/main/Postman%20screenshots/add%20course%20.png)
+Diagram 1 : Add a Course 
+
+![Update the Course](https://github.com/cyrax21/Avtaar-Assignment-2/blob/main/sign%20in.png)
+Diagram 2 : Update the Course 
+
+![Get All the Course](https://github.com/cyrax21/session-schedular-assignment-3/blob/main/Postman%20screenshots/get%20all%20course%20.png)
+Diagram 3 : Get All the Course
+
+![Get Course by Name](https://github.com/cyrax21/session-schedular-assignment-3/blob/main/Postman%20screenshots/get%20course%20by%20name%20.png)
+Diagram 4 : Get Course by Name
+
+![Add session](https://github.com/cyrax21/session-schedular-assignment-3/blob/main/Postman%20screenshots/add%20session%20-%20normal.png)
+Diagram 5 : Add session 
+
+![Add session - collide1](https://github.com/cyrax21/session-schedular-assignment-3/blob/main/Postman%20screenshots/add%20session%20collide%20-%201.png)
+![Add session - collide1](https://github.com/cyrax21/session-schedular-assignment-3/blob/main/Postman%20screenshots/add%20session%20collide%20-%202.png)
+![Add session - html](https://github.com/cyrax21/session-schedular-assignment-3/blob/main/Postman%20screenshots/add%20session%20html.png)
+![Add session - css](https://github.com/cyrax21/session-schedular-assignment-3/blob/main/Postman%20screenshots/add%20session%20css.png)
+Diagram 6 : Trying to Add session when their is collision with another session
+
+![Update Session](https://github.com/cyrax21/Avtaar-Assignment-2/blob/main/sign%20in.png)
+Diagram 7 : Update Session using Id
+
+![Update Session](https://github.com/cyrax21/Avtaar-Assignment-2/blob/main/sign%20in.png)
+Diagram 8 : Trying to update a existing session that is colliding with another session
+
+![get course1](https://github.com/cyrax21/session-schedular-assignment-3/blob/main/Postman%20screenshots/get%20session%20for%20each%20course%20-%202%20paginated%20page%201.png)
+![get course2](https://github.com/cyrax21/session-schedular-assignment-3/blob/main/Postman%20screenshots/get%20session%20for%20each%20course%20-%202%20paginated%20page%202.png)
+![get course2](https://github.com/cyrax21/session-schedular-assignment-3/blob/main/Postman%20screenshots/get%20session%20for%20each%20course%20-%202%20paginated%20page%203.png)
+Diagram 9 : Display session for a particular course - paginated api (course 1)
+ 
+![Delete Session](https://github.com/cyrax21/session-schedular-assignment-3/blob/main/Postman%20screenshots/delete%20session%20succesful.png)
+Diagram 10 : delete a session using Id
